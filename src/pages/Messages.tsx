@@ -7,7 +7,7 @@ const Messags: React.FC = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const logged = sessionStorage.getItem("looged");
+    const logged = localStorage.getItem("userToken");
     if (!logged) {
       navigate("/");
     }

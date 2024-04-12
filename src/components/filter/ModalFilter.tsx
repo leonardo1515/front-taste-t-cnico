@@ -48,7 +48,11 @@ const ModalFilter: React.FC<ModalTransactionProps> = ({
   );
 
   return (
-    <Dialog open={open} onClose={actionCancel}>
+    <Dialog
+      open={open}
+      onClose={actionCancel}
+      sx={{ backgroundColor: "rgba(248, 251, 251, 0.8)" }}
+    >
       <DialogTitle>
         <IconButton
           aria-label="close"
