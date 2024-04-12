@@ -1,0 +1,36 @@
+.input-animation {
+  position: relative;
+  animation: ease-out inputDow 500ms;
+}
+
+@keyframes inputDow {
+  0% {
+    opacity: 0.1;
+    bottom: 60px;
+  }
+  35% {
+    opacity: 0.3;
+  }
+  45% {
+    opacity: 0.6;
+    bottom: 30px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+
+.icoAnimation {
+  animation: esmaecer 2s;
+}
+
+@keyframes esmaecer {
+  0% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

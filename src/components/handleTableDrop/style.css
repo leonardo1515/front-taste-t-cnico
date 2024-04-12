@@ -1,0 +1,25 @@
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline;
+}
+
+.larg {
+  display: inline;
+}
+
+.drop {
+  display: none;
+}
+
+@media screen and (max-width: 530px) {
+  .drop {
+    display: inline;
+  }
+
+  .larg {
+    display: none;
+  }
+}

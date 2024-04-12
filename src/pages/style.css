@@ -1,0 +1,22 @@
+.animation-name-user {
+  position: relative;
+  animation: ease-out toHeight 1s;
+}
+
+@keyframes toHeight {
+  0% {
+    opacity: 0.1;
+    right: 200px;
+  }
+  35% {
+    opacity: 0.3;
+  }
+  45% {
+    opacity: 0.6;
+    right: 100px;
+  }
+  100% {
+    opacity: 1;
+    right: 0px;
+  }
+}
