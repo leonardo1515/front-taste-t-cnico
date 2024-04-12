@@ -28,3 +28,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ![image](https://github.com/marcelo-growdev/list-contacts-redux-tollkit/blob/master/public/images/screenshots/app-mobile.png)
 
 Para iniciar a aplicação comando npm rum dev
+
+Ficou faltando uabs coisas como edidat todos os campos presentes no modal
+porem foi uma idei a que tive quando estava fazendo o fronte por isso
+no back não esta configurado para editar as os campos de inicio e fim
+por isso eles não editão
