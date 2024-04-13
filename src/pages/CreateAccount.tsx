@@ -6,7 +6,7 @@ const CreatAccount: React.FC = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const logged = sessionStorage.getItem("userToken");
+    const logged = localStorage.getItem("userToken");
     if (logged) {
       navigate("/messages");
     }
